@@ -7,7 +7,9 @@ import (
 
 func main() {
 
-	fmt.Println(slidingwindow.FindAvgOfSubarraysImp([]int{1, 3, 2, 6, -1, 4, 1, 8, 2}, 5))
+	fmt.Println(slidingwindow.LongestSubstringWithKdistinct("cbbebi", 3))
+
+	fmt.Println(slidingwindow.TotalFruit([]int{1,2,3,2,2}))
 
 }
 
